@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "dishes": {
+    "otoro": {
+      "map": "otoro.webp",
+      "height": "otoro-height.webp",
+      "relief": 0.12
+    },
+    "salmon-nigiri": {
+      "map": "salmon-nigiri.webp",
+      "height": "salmon-nigiri-height.webp",
+      "relief": 0.12
+    },
+    "akami": {
+      "map": "akami.webp",
+      "height": "akami-height.webp",
+      "relief": 0.12
+    },
+    "ebi": {
+      "map": "ebi.webp",
+      "height": "ebi-height.webp",
+      "relief": 0.11
+    },
+    "tamago": {
+      "map": "tamago.webp",
+      "height": "tamago-height.webp",
+      "relief": 0.12
+    },
+    "ikura": {
+      "map": "ikura.webp",
+      "height": "ikura-height.webp",
+      "relief": 0.14
+    },
+    "salmon-sashimi": {
+      "map": "salmon-sashimi.webp",
+      "height": "salmon-sashimi-height.webp",
+      "relief": 0.06
+    },
+    "tuna-sashimi": {
+      "map": "tuna-sashimi.webp",
+      "height": "tuna-sashimi-height.webp",
+      "relief": 0.06
+    },
+    "chirashi": {
+      "map": "chirashi.webp",
+      "height": "chirashi-height.webp",
+      "relief": 0.05
+    },
+    "california": {
+      "map": "california.webp",
+      "height": "california-height.webp",
+      "relief": 0.1
+    },
+    "dragon": {
+      "map": "dragon.webp",
+      "height": "dragon-height.webp",
+      "relief": 0.1
+    },
+    "spicy-tuna": {
+      "map": "spicy-tuna.webp",
+      "height": "spicy-tuna-height.webp",
+      "relief": 0.1
+    },
+    "temaki": {
+      "map": "temaki.webp",
+      "height": "temaki-height.webp",
+      "relief": 0.12
+    },
+    "ramen": {
+      "map": "ramen.webp",
+      "height": "ramen-height.webp",
+      "relief": 0.05
+    },
+    "gyoza": {
+      "map": "gyoza.webp",
+      "height": "gyoza-height.webp",
+      "relief": 0.08
+    },
+    "tempura": {
+      "map": "tempura.webp",
+      "height": "tempura-height.webp",
+      "relief": 0.12
+    },
+    "karaage": {
+      "map": "karaage.webp",
+      "height": "karaage-height.webp",
+      "relief": 0.13
+    },
+    "yakitori": {
+      "map": "yakitori.webp",
+      "height": "yakitori-height.webp",
+      "relief": 0.07
+    },
+    "miso": {
+      "map": "miso.webp",
+      "height": "miso-height.webp",
+      "relief": 0.025
+    },
+    "edamame": {
+      "map": "edamame.webp",
+      "height": "edamame-height.webp",
+      "relief": 0.06
+    },
+    "mochi": {
+      "map": "mochi.webp",
+      "height": "mochi-height.webp",
+      "relief": 0.16
+    }
+  },
+  "pieces": {
+    "otoro": {
+      "map": "pieces/otoro.webp",
+      "height": "pieces/otoro-height.webp",
+      "relief": 0.22
+    }
+  },
+  "atlas": {
+    "map": "atlas.webp",
+    "cols": 6,
+    "rows": 4,
+    "order": [
+      "otoro",
+      "salmon-nigiri",
+      "akami",
+      "ebi",
+      "tamago",
+      "ikura",
+      "salmon-sashimi",
+      "tuna-sashimi",
+      "chirashi",
+      "california",
+      "dragon",
+      "spicy-tuna",
+      "temaki",
+      "ramen",
+      "gyoza",
+      "tempura",
+      "karaage",
+      "yakitori",
+      "miso",
+      "edamame",
+      "mochi"
+    ]
+  }
+}
