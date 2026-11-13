@@ -1,0 +1,60 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Monna Isa · maquette gratuite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--a:#C8553D;--d:#1c1210;--p:#faf7f2;--m:#6b6460}
+*{box-sizing:border-box;margin:0;padding:0}body{font:16px/1.55 Inter,system-ui,sans-serif;background:var(--p);color:#1d1a18}
+.bar{background:#0b0c13;color:#e9e8ff;font-size:13px;padding:9px 16px;text-align:center}.bar a{color:#a5a1ff}
+header{min-height:86vh;background:radial-gradient(1200px 600px at 80% -10%,color-mix(in srgb,var(--a) 55%,transparent),transparent 60%),var(--d);color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:28px 22px 46px;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;right:-120px;top:80px;width:420px;height:420px;border-radius:50%;border:2px solid color-mix(in srgb,var(--a) 70%,transparent);animation:spin 18s linear infinite}
+@keyframes spin{to{transform:rotate(360deg) translateX(20px)}}
+nav{position:absolute;top:22px;left:22px;right:22px;display:flex;justify-content:space-between;align-items:center;font-weight:600}
+nav a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.35);padding:8px 14px;border-radius:30px;font-size:14px}
+h1{font-family:Fraunces,serif;font-weight:800;font-size:clamp(44px,11vw,96px);line-height:.95;letter-spacing:-.02em;max-width:12ch;animation:up .9s cubic-bezier(.2,.8,.2,1) both}
+.tag{margin-top:16px;font-size:18px;opacity:.85;max-width:34ch;animation:up .9s .15s both}
+.cta{display:inline-block;margin-top:26px;background:var(--a);color:#fff;text-decoration:none;font-weight:700;padding:16px 26px;border-radius:40px;box-shadow:0 10px 30px color-mix(in srgb,var(--a) 50%,transparent);animation:up .9s .3s both}
+@keyframes up{from{opacity:0;transform:translateY(30px)}}
+section{padding:56px 22px;max-width:760px;margin:0 auto}h2{font-family:Fraunces,serif;font-size:36px;margin-bottom:18px}
+.card{background:#fff;border-radius:24px;padding:22px;box-shadow:0 12px 40px rgba(29,26,24,.08)}
+.lbl{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--m);margin:16px 0 8px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}button{font:inherit;cursor:pointer;border:0}
+.c,.s{padding:10px 16px;border-radius:14px;background:#f1ece6;font-weight:600}.c.on,.s.on{background:var(--a);color:#fff}
+.s.off{opacity:.35;text-decoration:line-through;pointer-events:none}
+select{width:100%;padding:12px;border-radius:14px;border:1px solid #e3dcd4;font:inherit;background:#fff}
+#go{margin-top:20px;width:100%;padding:16px;border-radius:16px;background:var(--d);color:#fff;font-weight:700;font-size:17px}
+#ok{display:none;margin-top:14px;padding:14px;border-radius:14px;background:color-mix(in srgb,var(--a) 14%,#fff);font-weight:600}
+.it{display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid #ece5dd}.it span{display:block;color:var(--m);font-size:14px}.it em{font-style:normal;font-weight:700;white-space:nowrap}
+table{width:100%;border-collapse:collapse}td{padding:10px 0;border-bottom:1px solid #ece5dd}td+td{text-align:right;font-weight:600}
+.row{display:grid;gap:18px}@media(min-width:700px){.row{grid-template-columns:1fr 1fr}}
+.rev{background:var(--d);color:#fff;border-radius:24px;padding:26px}.rev a{display:inline-block;margin-top:14px;background:#fff;color:var(--d);padding:12px 18px;border-radius:30px;font-weight:700;text-decoration:none}
+footer{padding:40px 22px 120px;text-align:center;color:var(--m);font-size:14px}
+#bot{position:fixed;right:16px;bottom:16px;width:64px;height:64px;border-radius:50%;background:var(--a);color:#fff;font-weight:800;font-size:26px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+#hint{position:fixed;right:90px;bottom:30px;background:#fff;padding:10px 14px;border-radius:14px;font-size:14px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.18);opacity:0;transition:opacity .5s;pointer-events:none}
+#chat{position:fixed;right:16px;bottom:92px;width:min(340px,calc(100vw - 32px));background:#fff;border-radius:22px;box-shadow:0 20px 60px rgba(0,0,0,.25);overflow:hidden;display:none}
+#chat .h{background:var(--d);color:#fff;padding:14px 16px;font-weight:700}#chat .b{padding:14px;display:flex;flex-direction:column;gap:8px;max-height:300px;overflow:auto}
+.m{max-width:85%;padding:10px 13px;border-radius:16px;font-size:14px}.u{align-self:flex-end;background:#f1ece6}.bt{background:color-mix(in srgb,var(--a) 15%,#fff)}
+#chat .q{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 14px}#chat .q button{background:#f1ece6;padding:8px 10px;border-radius:12px;font-size:13px}
+</style></head><body>
+<div class="bar">Maquette gratuite réalisée par <a href="https://mainstreetdigital.cto.site/fr/">Main Street Digital</a> pour Monna Isa. Ce n'est pas le site officiel.</div>
+<header><nav><span>Monna Isa</span><a href="#reserver">Réserver une table</a></nav>
+<h1>Monna Isa</h1><p class="tag">La terre d&#x27;Italie au cœur de Genève : restaurant, bar à vins et épicerie fine, 650 références en cave.</p><a class="cta" href="#reserver">Réserver une table</a></header>
+<section id="reserver"><h2>Réserver une table</h2><div class="card">
+<div class="lbl">Nombre de personnes</div><div class="chips" id="u"><button class="c on">2</button><button class="c">3</button><button class="c">4</button><button class="c">5</button><button class="c">6+</button></div><div class="lbl">Jour</div><div class="chips" id="d"><button class="c on">Lun</button><button class="c">Mar</button><button class="c">Mer</button><button class="c">Jeu</button><button class="c">Ven</button><button class="c">Sam</button></div>
+<div class="lbl">Heure</div><div class="chips" id="h"><button class="s">12:00</button><button class="s off">12:30</button><button class="s">13:00</button><button class="s">19:00</button><button class="s off">19:30</button><button class="s">20:00</button><button class="s">20:30</button><button class="s">21:00</button></div>
+<button id="go">Confirmer</button><div id="ok">C'est noté ! Vous recevez la confirmation par e-mail. (démo)</div></div></section>
+<section><h2>La carte</h2><div class="card"><div class="it"><div><b>Vitello tonnato</b><span>Veau, sauce au thon maison, giardiniera de légumes</span></div><em>CHF 34</em></div><div class="it"><div><b>Antipasto Monna Isa</b><span>Charcuterie, fromages et caprices du chef</span></div><em>CHF 35</em></div><div class="it"><div><b>Risotto 30 mois</b><span>Parmigiano Reggiano DOP 30 mois</span></div><em>CHF 42</em></div><div class="it"><div><b>Gnocchi en légèreté</b><span>Gnocchi maison, pesto de fèves, pleurotes, speck</span></div><em>CHF 45</em></div><div class="it"><div><b>Salade Caesar</b><span>Poulet de Bresse, sauce César maison</span></div><em>CHF 28</em></div></div></section>
+<section class="row"><div class="card"><h2>Horaires</h2><table></table></div>
+<div class="card"><h2>Nous trouver</h2><p>Place du Bourg-de-Four 8, 1204 Genève</p><p style="margin-top:12px"><a href="https://www.google.com/maps/search/?api=1&query=Monna+Isa+Place+du+Bourg-de-Four+8,+1204+Genève" style="color:var(--a);font-weight:700">Ouvrir dans Google Maps</a></p></div></section>
+<section><div class="rev"><h2>Vous êtes venu chez nous ?</h2><p>Deux heures après chaque visite, vos clients reçoivent un petit message avec ce lien. Les avis arrivent tout seuls.</p><a href="#">Laisser un avis Google</a></div></section>
+<footer>Maquette gratuite et sans engagement, réalisée par Main Street Digital (Genève) pour montrer à Monna Isa ce que son site pourrait être : réservation en ligne, assistant qui répond aux clients, demandes d'avis automatiques.<br><br><a href="https://mainstreetdigital.cto.site/fr/" style="color:var(--a)">mainstreetdigital.cto.site</a></footer>
+<div id="hint">Une question ? Je réponds tout de suite.</div><button id="bot" aria-label="Assistant">?</button>
+<div id="chat"><div class="h">Assistant de Monna Isa</div><div class="b" id="log"><div class="m bt">Bonjour ! Je réponds tout de suite, même le soir. Que puis-je faire pour vous ?</div></div>
+<div class="q"><button data-a="Nos horaires : nos horaires sont sur cette page.">Vos horaires ?</button><button data-a="Oui, il reste de la place. Choisissez l&#x27;heure ci-dessus, vous recevez la confirmation par e-mail.">Avez-vous une table ce soir ?</button><button data-a="Nous sommes au Place du Bourg-de-Four 8, 1204 Genève.">Où êtes-vous ?</button></div></div>
+<script>
+document.querySelectorAll('.chips').forEach(g=>g.addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b||b.classList.contains('off'))return;g.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');}));
+document.getElementById('go').onclick=()=>{document.getElementById('ok').style.display='block';};
+const chat=document.getElementById('chat');document.getElementById('bot').onclick=()=>{chat.style.display=chat.style.display==='block'?'none':'block';};
+chat.querySelectorAll('.q button').forEach(b=>b.onclick=()=>{const log=document.getElementById('log');log.insertAdjacentHTML('beforeend','<div class="m u">'+b.textContent+'</div>');setTimeout(()=>{log.insertAdjacentHTML('beforeend','<div class="m bt">'+b.dataset.a+'</div>');log.scrollTop=1e6;},500);});
+setTimeout(()=>{document.getElementById('hint').style.opacity=1;},1800);setTimeout(()=>{document.getElementById('hint').style.opacity=0;},9000);
+</script></body></html>
